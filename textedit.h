@@ -3,10 +3,6 @@
 
 #include <gtk/gtk.h>
 
-// #define TextEditClass GApplicationClass
-// #define TextEdit GtkApplication
-// #define TEXT_EDIT_TYPE GType
-
 #define TEXT_EDIT_TYPE (text_edit_get_type ())
 G_DECLARE_FINAL_TYPE (TextEdit, text_edit, TEXT, EDIT, GtkApplication)
 
